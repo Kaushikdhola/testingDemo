@@ -9,8 +9,8 @@ def main():
 
     p = float(input("Enter the original price: "))
 
-    a=0.2
-    b=73
+    ab=0.2
+    c=73
 
     dp = discount(p)
 
