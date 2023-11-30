@@ -1,9 +1,12 @@
+
 import random
+
 
 def discount(price):
     magic_number = random.uniform(0.1, 0.3)
     discounted_price = price - (price * magic_number)
     return discounted_price
+
 
 def main():
 
@@ -16,6 +19,7 @@ def main():
 
     print(f"Original Price: ${p:.2f}")
     print("Discounted Price: $" + str(round(dp, 2)))
+
 
 if __name__ == "__main__":
     main()
