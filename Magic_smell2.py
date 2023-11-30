@@ -5,6 +5,7 @@ def discount(price):
     discounted_price = price - (price * magic_number)
     return discounted_price
 
+
 def main():
 
     p = float(input("Enter the original price: "))
@@ -15,6 +16,7 @@ def main():
 
     print(f"Original Price: ${p:.2f}")
     print("Discounted Price: $" + str(round(dp, 2)))
+
 
 if __name__ == "__main__":
     main()
