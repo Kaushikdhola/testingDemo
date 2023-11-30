@@ -9,8 +9,7 @@ def main():
 
     p = float(input("Enter the original price: "))
 
-    mn = 0.2
-
+    m=0.2
     dp = discount(p)
 
     print(f"Original Price: ${p:.2f}")
